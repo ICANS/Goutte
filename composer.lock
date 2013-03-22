@@ -1,5 +1,5 @@
 {
-    "hash": "62ed4b74fc5e6c55b519cc3fa45208f1",
+    "hash": "fb2be6c4f81cbc76c30bb2b6767051e3",
     "packages": [
         {
             "name": "guzzle/guzzle",
@@ -54,6 +54,7 @@
                 "zendframework/zend-cache": "2.0.*",
                 "zendframework/zend-log": "2.0.*"
             },
+            "time": "2013-03-04 00:41:45",
             "type": "library",
             "extra": {
                 "branch-alias": {
@@ -91,44 +92,35 @@
                 "http client",
                 "rest",
                 "web service"
-            ],
-            "time": "2013-03-04 00:41:45"
+            ]
         },
         {
             "name": "symfony/browser-kit",
-            "version": "v2.2.0",
+            "version": "v2.0.23",
             "target-dir": "Symfony/Component/BrowserKit",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/BrowserKit.git",
-                "reference": "v2.2.0-RC3"
+                "reference": "v2.0.23"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/BrowserKit/zipball/v2.2.0-RC3",
-                "reference": "v2.2.0-RC3",
+                "url": "https://api.github.com/repos/symfony/BrowserKit/zipball/v2.0.23",
+                "reference": "v2.0.23",
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.3.3",
-                "symfony/dom-crawler": ">=2.0,<3.0"
-            },
-            "require-dev": {
-                "symfony/css-selector": ">=2.0,<3.0",
-                "symfony/process": ">=2.0,<3.0"
+                "php": ">=5.3.2",
+                "symfony/dom-crawler": "self.version"
             },
             "suggest": {
-                "symfony/process": "2.2.*"
+                "symfony/process": "v2.0.23"
             },
+            "time": "2013-01-04 16:59:43",
             "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "2.2-dev"
-                }
-            },
             "autoload": {
                 "psr-0": {
-                    "Symfony\\Component\\BrowserKit\\": ""
+                    "Symfony\\Component\\BrowserKit": ""
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -146,36 +138,31 @@
                 }
             ],
             "description": "Symfony BrowserKit Component",
-            "homepage": "http://symfony.com",
-            "time": "2013-02-23 06:46:07"
+            "homepage": "http://symfony.com"
         },
         {
             "name": "symfony/css-selector",
-            "version": "v2.2.0",
+            "version": "v2.0.23",
             "target-dir": "Symfony/Component/CssSelector",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/CssSelector.git",
-                "reference": "v2.2.0-RC3"
+                "reference": "v2.0.23"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/CssSelector/zipball/v2.2.0-RC3",
-                "reference": "v2.2.0-RC3",
+                "url": "https://api.github.com/repos/symfony/CssSelector/zipball/v2.0.23",
+                "reference": "v2.0.23",
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.3.3"
+                "php": ">=5.3.2"
             },
+            "time": "2013-01-07 11:07:21",
             "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "2.2-dev"
-                }
-            },
             "autoload": {
                 "psr-0": {
-                    "Symfony\\Component\\CssSelector\\": ""
+                    "Symfony\\Component\\CssSelector": ""
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -193,42 +180,34 @@
                 }
             ],
             "description": "Symfony CssSelector Component",
-            "homepage": "http://symfony.com",
-            "time": "2013-01-17 15:25:59"
+            "homepage": "http://symfony.com"
         },
         {
             "name": "symfony/dom-crawler",
-            "version": "v2.2.0",
+            "version": "v2.0.23",
             "target-dir": "Symfony/Component/DomCrawler",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/DomCrawler.git",
-                "reference": "v2.2.0"
+                "reference": "v2.0.23"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/DomCrawler/zipball/v2.2.0",
-                "reference": "v2.2.0",
+                "url": "https://api.github.com/repos/symfony/DomCrawler/zipball/v2.0.23",
+                "reference": "v2.0.23",
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.3.3"
-            },
-            "require-dev": {
-                "symfony/css-selector": ">=2.0,<3.0"
+                "php": ">=5.3.2"
             },
             "suggest": {
-                "symfony/css-selector": "2.2.*"
+                "symfony/css-selector": "v2.0.23"
             },
+            "time": "2013-02-19 17:21:02",
             "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "2.2-dev"
-                }
-            },
             "autoload": {
                 "psr-0": {
-                    "Symfony\\Component\\DomCrawler\\": ""
+                    "Symfony\\Component\\DomCrawler": ""
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -246,8 +225,7 @@
                 }
             ],
             "description": "Symfony DomCrawler Component",
-            "homepage": "http://symfony.com",
-            "time": "2013-03-01 06:43:14"
+            "homepage": "http://symfony.com"
         },
         {
             "name": "symfony/event-dispatcher",
@@ -274,6 +252,7 @@
                 "symfony/dependency-injection": "2.2.*",
                 "symfony/http-kernel": "2.2.*"
             },
+            "time": "2013-02-11 11:26:43",
             "type": "library",
             "extra": {
                 "branch-alias": {
@@ -300,36 +279,31 @@
                 }
             ],
             "description": "Symfony EventDispatcher Component",
-            "homepage": "http://symfony.com",
-            "time": "2013-02-11 11:26:43"
+            "homepage": "http://symfony.com"
         },
         {
             "name": "symfony/finder",
-            "version": "v2.2.0",
+            "version": "v2.0.23",
             "target-dir": "Symfony/Component/Finder",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/Finder.git",
-                "reference": "v2.2.0"
+                "reference": "v2.0.23"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/Finder/zipball/v2.2.0",
-                "reference": "v2.2.0",
+                "url": "https://api.github.com/repos/symfony/Finder/zipball/v2.0.23",
+                "reference": "v2.0.23",
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.3.3"
+                "php": ">=5.3.2"
             },
+            "time": "2013-01-04 16:59:43",
             "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "2.2-dev"
-                }
-            },
             "autoload": {
                 "psr-0": {
-                    "Symfony\\Component\\Finder\\": ""
+                    "Symfony\\Component\\Finder": ""
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -347,36 +321,31 @@
                 }
             ],
             "description": "Symfony Finder Component",
-            "homepage": "http://symfony.com",
-            "time": "2013-02-28 14:06:36"
+            "homepage": "http://symfony.com"
         },
         {
             "name": "symfony/process",
-            "version": "v2.2.0",
+            "version": "v2.0.23",
             "target-dir": "Symfony/Component/Process",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/Process.git",
-                "reference": "v2.2.0-RC3"
+                "reference": "v2.0.23"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/Process/zipball/v2.2.0-RC3",
-                "reference": "v2.2.0-RC3",
+                "url": "https://api.github.com/repos/symfony/Process/zipball/v2.0.23",
+                "reference": "v2.0.23",
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.3.3"
+                "php": ">=5.3.2"
             },
+            "time": "2013-02-17 19:36:49",
             "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "2.2-dev"
-                }
-            },
             "autoload": {
                 "psr-0": {
-                    "Symfony\\Component\\Process\\": ""
+                    "Symfony\\Component\\Process": ""
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -394,25 +363,15 @@
                 }
             ],
             "description": "Symfony Process Component",
-            "homepage": "http://symfony.com",
-            "time": "2013-02-18 21:28:10"
+            "homepage": "http://symfony.com"
         }
     ],
-    "packages-dev": [
-
-    ],
+    "packages-dev": null,
     "aliases": [
 
     ],
     "minimum-stability": "stable",
     "stability-flags": [
-
-    ],
-    "platform": {
-        "php": ">=5.3.0",
-        "ext-curl": "*"
-    },
-    "platform-dev": [
 
     ]
 }
